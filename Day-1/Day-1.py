@@ -5,7 +5,7 @@ def greet(name):
     print("hello",name)
 greet("Mazid")    
 
-2. list for printing even numbers
+2. using list to printing even numbers
 
 b=list(map(int, input().split()))
 a=[]
@@ -28,6 +28,8 @@ student["grade"]:"A"
 for key, value in student.items():
     print(key,":",value)
 '''
+a simple calculator
+
 def add(a, b):
     return a + b
 
