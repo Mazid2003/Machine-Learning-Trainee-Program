@@ -165,6 +165,14 @@ student["grade"] = "A"
 for key, value in student.items():
     print(key, ":", value)
 ```
+| Concept	  | Description                      |
+------------  |-----------------------------------
+| Variables	  | Containers for storing data      |
+| Loops	      | Repeating a block of code        |
+| Functions	  | Modular blocks of code           |
+| Lists	      | Ordered collection               |
+| Dictionaries|	Unordered collection with keys   |
+
 **🌟 Summary**
 
 On Day 1, I got hands-on experience with the core building blocks of Python. These fundamentals form the base for advanced topics like data analysis, web development, and machine learning.
