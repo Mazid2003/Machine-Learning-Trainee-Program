@@ -1,4 +1,4 @@
-**Day 2 – Exception Handling, File Handling, List Comprehension**
+**🚀Day 2 – Exception Handling, File Handling, List Comprehension**
 
 **✅ Topics Covered:**
 
