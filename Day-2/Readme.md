@@ -240,11 +240,13 @@ item: Variable representing each element from iterable
 iterable: A sequence (like list, range, string)
 
 condition (optional): Filters elements based on True/False
+
+**🔸Example 1: Squares of Numbers**
 ```
-🔸 Example 1: Squares of Numbers
 squares = [x**2 for x in range(10)]
 print(squares)  # [0, 1, 4, 9, ..., 81]
-🔸 Example 2: Filtering Even Numbers
+```
+**🔸 Example 2: Filtering Even Numbers**
 evens = [x for x in range(20) if x % 2 == 0]
 print(evens)  # [0, 2, 4, ..., 18]
 🔸 Example 3: From String to List of Characters
@@ -254,7 +256,7 @@ print(chars)  # ['P', 'y', 't', 'h', 'o', 'n']
 marks = [50, 80, 90, 45, 70]
 result = ["Pass" if score >= 50 else "Fail" for score in marks]
 print(result)  # ['Pass', 'Pass', 'Pass', 'Fail', 'Pass']
-```
+
 **🔸 Nested List Comprehension**
 
 Create a multiplication table (2D list):
