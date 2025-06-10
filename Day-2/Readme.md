@@ -247,8 +247,10 @@ squares = [x**2 for x in range(10)]
 print(squares)  # [0, 1, 4, 9, ..., 81]
 ```
 **🔸 Example 2: Filtering Even Numbers**
+```
 evens = [x for x in range(20) if x % 2 == 0]
 print(evens)  # [0, 2, 4, ..., 18]
+```
 🔸 Example 3: From String to List of Characters
 chars = [char for char in "Python"]
 print(chars)  # ['P', 'y', 't', 'h', 'o', 'n']
