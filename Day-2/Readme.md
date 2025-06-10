@@ -131,9 +131,9 @@ Provide helpful error messages to users.
 Files are essential for storing data permanently outside the program. Python provides simple and powerful methods to create, read, update, and delete files.
 
 **🔸 Opening a File**
-
+```
 file = open("example.txt", mode)
-
+```
 mode determines the operation:
 
 | **Mode** | **Description**                         |
