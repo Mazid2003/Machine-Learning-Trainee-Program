@@ -251,14 +251,17 @@ print(squares)  # [0, 1, 4, 9, ..., 81]
 evens = [x for x in range(20) if x % 2 == 0]
 print(evens)  # [0, 2, 4, ..., 18]
 ```
-🔸 Example 3: From String to List of Characters
+**🔸 Example 3: From String to List of Characters**
+```
 chars = [char for char in "Python"]
 print(chars)  # ['P', 'y', 't', 'h', 'o', 'n']
-🔸 Example 4: Conditional Expressions in Output
+```
+**🔸 Example 4: Conditional Expressions in Output**
+```
 marks = [50, 80, 90, 45, 70]
 result = ["Pass" if score >= 50 else "Fail" for score in marks]
 print(result)  # ['Pass', 'Pass', 'Pass', 'Fail', 'Pass']
-
+```
 **🔸 Nested List Comprehension**
 
 Create a multiplication table (2D list):
