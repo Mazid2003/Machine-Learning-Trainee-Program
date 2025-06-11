@@ -1,5 +1,4 @@
-
-**🚀 Day 1 – Python Basics**
+# 🚀 Day 1 – Python Basics
 
 Welcome to Day 1 of my Python learning journey! Here's a concise and comprehensive overview of the essential concepts I covered.
 
@@ -17,7 +16,7 @@ Working with Lists
 
 Using Dictionaries
 
-**🔹 1. Introduction to Python**
+# 🔹 1. Introduction to Python
 
 Python is a high-level, interpreted, and general-purpose programming language known for its clear syntax and wide range of applications:
 
@@ -37,9 +36,9 @@ Used by top tech giants (Google, Netflix, NASA)
 
 print("Hello, Python World!")
 
-**🔹 2. Variables and Data Types**
+# 🔹 2. Variables and Data Types
 
-🔸 What is a Variable?
+**🔸 What is a Variable?**
 
 A variable stores information to be referenced and manipulated in a program.
 
@@ -64,7 +63,7 @@ is_student = True
 
 print(type(name))  # <class 'str'>
 
-**🔹 3. Control Flow with Loops**
+# 🔹 3. Control Flow with Loops
 
 Loops let us execute a block of code multiple times.
 
@@ -95,7 +94,7 @@ for i in range(10):
         break
     print(i)
 ```    
-**🔹 4. Functions in Python**
+# 🔹 4. Functions in Python
 
 Functions make code modular, reusable, and organized.
 
@@ -115,7 +114,7 @@ greet()           # Hello User
 greet("Ranjan")   # Hello Ranjan
 ```
 
-**🔹 5. Lists**
+# 🔹 5. Lists
 
 Lists are ordered, mutable collections of items.
 
@@ -142,7 +141,7 @@ numbers = [10, 20, 30, 40, 50]
 
 print(numbers[1:4])  # [20, 30, 40]
 ```
-**🔹 6. Dictionaries**
+# 🔹 6. Dictionaries
 
 Dictionaries are unordered collections of key-value pairs.
 
@@ -173,7 +172,7 @@ for key, value in student.items():
 | Lists	      | Ordered collection               |
 | Dictionaries|	Unordered collection with keys   |
 
-**🌟 Summary**
+# 🌟 Summary
 
 On Day 1, I got hands-on experience with the core building blocks of Python. These fundamentals form the base for advanced topics like data analysis, web development, and machine learning.
 
