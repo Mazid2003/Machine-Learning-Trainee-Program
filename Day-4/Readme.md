@@ -182,7 +182,8 @@ df.isna()
 df.fillna(value)
 df.dropna()
 ```
-✅ Summary
+## ✅ Summary
+
 Pandas provides a robust set of tools for working with structured data.
 
 Load, inspect, and manipulate data easily with DataFrames.
