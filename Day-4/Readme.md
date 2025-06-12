@@ -134,44 +134,39 @@ grouped.agg({
     'Expenses': ['mean', 'max']
 })
 ```
-🔸 Iterating Over Groups:
-python
-Copy
-Edit
+**🔸 Iterating Over Groups:**
+```
 for city, group in grouped:
     print(f"City: {city}")
     print(group)
-🔸 Grouping by Multiple Columns:
-python
-Copy
-Edit
+```
+**🔸 Grouping by Multiple Columns:**
+```
 df['Year'] = [2023, 2023, 2024, 2024, 2024]
 grouped = df.groupby(['City', 'Year']).sum()
-🔷 7. Practical Examples
-✅ Example 1: Filter High Sales
-python
-Copy
-Edit
+```
+## 🔷 7. Practical Examples
+
+**✅ Example 1: Filter High Sales**
+```
 df = pd.read_csv('sales_data.csv')
 high_sales = df[df['Sales'] > 1000]
 print(high_sales.head())
-✅ Example 2: Group by Category
-python
-Copy
-Edit
+```
+**✅ Example 2: Group by Category**
+```
 grouped = df.groupby('Category')['Sales'].sum()
-✅ Example 3: Filter + Group
-python
-Copy
-Edit
+```
+**✅ Example 3: Filter + Group**
+```
 filtered = df[df['Region'] == 'North']
 grouped = filtered.groupby('Product')['Profit'].mean()
-🔷 8. Common Pitfalls and Best Practices
-❌ Avoid This:
-python
-Copy
-Edit
+```
+## 🔷 8. Common Pitfalls and Best Practices
+**❌ Avoid This:**
+```
 df[df['Age'] > 25 & df['City'] == 'New York']  # Incorrect
+```
 ✅ Do This:
 python
 Copy
