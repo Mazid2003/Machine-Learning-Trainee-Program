@@ -119,20 +119,21 @@ df = df.reset_index(drop=True)
 ## 🔷 6. Grouping and Aggregation
 
 **🔸 Grouping with groupby():**
-
+```
 grouped = df.groupby('City')
-🔸 Aggregating Groups:
-python
-Copy
-Edit
+```
+**🔸 Aggregating Groups:**
+```
 grouped['Sales'].sum()
 grouped['Expenses'].mean()
-
-# Multiple Aggregations
+```
+**Multiple Aggregations**
+```
 grouped.agg({
     'Sales': ['sum', 'mean'],
     'Expenses': ['mean', 'max']
 })
+```
 🔸 Iterating Over Groups:
 python
 Copy
