@@ -167,24 +167,21 @@ grouped = filtered.groupby('Product')['Profit'].mean()
 ```
 df[df['Age'] > 25 & df['City'] == 'New York']  # Incorrect
 ```
-✅ Do This:
-python
-Copy
-Edit
+**✅ Do This:**
+```
 df[(df['Age'] > 25) & (df['City'] == 'New York')]
-🔸 Avoid SettingWithCopyWarning:
-python
-Copy
-Edit
+```
+**🔸 Avoid SettingWithCopyWarning:**
+```
 filtered = df[df['Age'] > 30].copy()
 filtered['NewCol'] = 1
-🔸 Handle Missing Data:
-python
-Copy
-Edit
+```
+**🔸 Handle Missing Data:**
+```
 df.isna()
 df.fillna(value)
 df.dropna()
+```
 ✅ Summary
 Pandas provides a robust set of tools for working with structured data.
 
