@@ -1,4 +1,4 @@
-**🚀Day 2 – Exception Handling, File Handling, List Comprehension**
+# 🚀Day 2 – Exception Handling, File Handling, List Comprehension
 
 **✅ Topics Covered:**
 
@@ -8,7 +8,7 @@ File Handling
 
 List Comprehension
 
-**🔷 1. Exception Handling in Python**
+## 🔷 1. Exception Handling in Python
 
 **🔹 What is an Exception?**
 
@@ -124,7 +124,7 @@ Always clean up resources (use finally or context managers).
 
 Provide helpful error messages to users.
 
-**🔷 2. File Handling in Python**
+## 🔷 2. File Handling in Python
 
 **🔹 Introduction**
 
@@ -210,7 +210,7 @@ The with statement automatically closes the file after the block finishes, even 
 with open("example.txt", "r") as f:
     data = f.read()
 ```
-# File is automatically closed here
+**File is automatically closed here**
 
 **🔸 Binary File Handling**
 
@@ -223,7 +223,7 @@ with open("copy.jpg", "wb") as f:
     f.write(data)
 ```
 
-**🔷 3. List Comprehension**
+## 🔷 3. List Comprehension**
 
 **🔹 What is List Comprehension?**
 
@@ -241,7 +241,7 @@ iterable: A sequence (like list, range, string)
 
 condition (optional): Filters elements based on True/False
 
-**🔸Example 1: Squares of Numbers**
+**🔸 Example 1: Squares of Numbers**
 ```
 squares = [x**2 for x in range(10)]
 print(squares)  # [0, 1, 4, 9, ..., 81]
@@ -270,7 +270,7 @@ table = [[i * j for j in range(1, 6)] for i in range(1, 6)]
 for row in table:
     print(row)
 ```
-**🔸 List Comprehension vs Loop**
+## 🔸 List Comprehension vs Loop
 
 **Using loop:**
 ```
@@ -284,7 +284,7 @@ print(squares)
 squares = [i**2 for i in range(10)]
 print(squares)
 ```
-**🔹 Advantages of List Comprehension**
+## 🔹 Advantages of List Comprehension
 
 Compact and expressive
 
@@ -292,7 +292,7 @@ Usually faster than loops
 
 Easy to read once familiar
 
-**🔹 Practice Exercises**
+## 🔹 Practice Exercises
 
 Create a list of all vowels from a string using list comprehension.
 
@@ -300,7 +300,7 @@ Generate a list of numbers from 1 to 50 divisible by 3 and 5.
 
 Create a list of tuples containing number and its square for numbers from 1 to 10.
 
-**🏁 Summary Table**
+## 🏁 Summary Table
 
 | **Concept**     | **Description**                          | **Example**                                  |
 |------------------|------------------------------------------|----------------------------------------------|
