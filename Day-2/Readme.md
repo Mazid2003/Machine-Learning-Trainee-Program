@@ -187,7 +187,7 @@ with open(filename, "w") as file:
     age = input("Enter your age: ")
     file.write(f"Name: {name}nAge: {age}n")
 ```
-# Read and display file contents
+**Read and display file contents**
 ```
 with open(filename, "r") as file:
     print("nFile Contents:")
