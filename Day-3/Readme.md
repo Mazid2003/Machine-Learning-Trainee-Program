@@ -1,4 +1,4 @@
-# Day 3 – NumPy: Arrays, Indexing, Slicing, Operations
+# 🚀 Day 3 – NumPy: Arrays, Indexing, Slicing, Operations
 
 **✅ Topics Covered:**
 
