@@ -1,0 +1,12 @@
+customer_name,Product,Quantity,Price,Sale Date,Region
+Alice,Keyboard,5.0,25.0,2023-05-01,North
+Bob,Mouse,3.0,246.66666666666666,2023-05-03,South
+Unknown,Monitor,2.0,150.0,2023-05-01,East
+David,Keyboard,5.0,25.0,2023-05-01,North
+Alice,Keyboard,5.0,25.0,2023-05-01,North
+Eve,Laptop,3.1,900.0,2023-05-01,West
+Frank,Mouse,1.0,20.0,2023-05-04,Unknown
+Grace,Monitor,2.0,150.0,2023-05-02,East
+Bob,Mouse,3.0,246.66666666666666,2023-05-03,South
+Henry,Laptop,1.0,900.0,2023-05-05,West
+Ivy,Keyboard,4.0,25.0,2023-05-01,North
