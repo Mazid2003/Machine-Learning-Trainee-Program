@@ -1,5 +1,7 @@
 # 🚀Day 2 – Exception Handling, File Handling, List Comprehension
 
+**Date:10/06/2025**
+
 **✅ Topics Covered:**
 
 Exception Handling
