@@ -1,5 +1,7 @@
 # 📊 Day 4 – Pandas: DataFrames, Importing CSV, Filtering, Grouping
 
+**Date:12/06/2025**
+
 Welcome to Day 4 of the ML Trainee Program! Today we dove deep into Pandas, a powerful Python library used extensively for data analysis and manipulation. Below is a comprehensive summary of the key topics and practical applications discussed during the session.
 
 ## 🔷 1. Introduction to Pandas and DataFrames
