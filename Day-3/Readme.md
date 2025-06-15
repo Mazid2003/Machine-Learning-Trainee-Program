@@ -1,5 +1,7 @@
 # 🚀 Day 3 – NumPy: Arrays, Indexing, Slicing, Operations
 
+**Date:11/06/2025**
+
 **✅ Topics Covered:**
 
 Introduction to NumPy and Arrays
