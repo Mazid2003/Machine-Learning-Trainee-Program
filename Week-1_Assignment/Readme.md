@@ -1,5 +1,7 @@
 # 📊 Week 1 Assignment: Data Cleaning and Preprocessing – Sales Dataset
 
+**Date:14/06/2025 to 15/06/2025**
+
 **🧼 Objective:**
 
 The goal of this assignment was to clean and prepare a raw sales dataset for analysis by handling missing values, duplicates, and formatting issues. This is a crucial first step in any data science pipeline.
