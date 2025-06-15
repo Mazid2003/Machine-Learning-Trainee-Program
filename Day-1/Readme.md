@@ -1,5 +1,7 @@
 # 🚀 Day 1 – Python Basics
 
+**Date:09/06/2025**
+
 Welcome to Day 1 of my Python learning journey! Here's a concise and comprehensive overview of the essential concepts I covered.
 
 **✅ Topics Covered:**
