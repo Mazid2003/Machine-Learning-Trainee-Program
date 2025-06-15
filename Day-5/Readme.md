@@ -1,5 +1,7 @@
 # 🧹 Day 5 – Data Cleaning with Pandas
 
+**Date:13/06/2025**
+
 ML Trainee Program – Practical Data Preprocessing
 
 **✅ Topics Covered**
