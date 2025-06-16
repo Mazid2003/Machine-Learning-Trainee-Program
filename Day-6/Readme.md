@@ -68,8 +68,105 @@ plt.scatter(x, y, color='blue', marker='x')
 Used to identify relationships or correlations between variables.
 
 **🔹 Pie Chart**
+```
+labels = ['Python', 'Java', 'C++']
+sizes = [40, 30, 30]
 
+plt.pie(sizes, labels=labels, autopct='%1.1f%%')
+plt.title("Programming Language Popularity")
+plt.axis('equal')  # Ensures the pie is circular
+plt.show()
+```
+Shows percentage distribution.
 
+Use autopct to display values.
+
+## 🎨 5. Plot Customization Techniques
+
+**Example:**
+```
+plt.plot(x, y, color='red', label='Revenue', marker='s')
+plt.title("Monthly Revenue")
+plt.xlabel("Month")
+plt.ylabel("Amount ($)")
+plt.legend()
+plt.grid(True)
+plt.show()
+```
+### Common Customization Options:
+
+| Feature     | Example Usage     |
+| ----------- | ----------------- |
+| Color       | `color='blue'`    |
+| Marker      | `marker='o'`      |
+| Line Style  | `linestyle='--'`  |
+| Legend      | `plt.legend()`    |
+| Axis Limits | `plt.xlim(0, 10)` |
+| Grid        | `plt.grid(True)`  |
+
+## 🧩 6. Multiple Plots / Subplots
+```
+plt.subplot(2, 1, 1)
+plt.plot(x1, y1)
+plt.title("Plot 1")
+
+plt.subplot(2, 1, 2)
+plt.plot(x2, y2)
+plt.title("Plot 2")
+
+plt.tight_layout()
+plt.show()
+```
+subplot(rows, cols, index) helps in organizing multiple plots in one figure.
+
+tight_layout() avoids overlap.
+
+## 📈 7. Plotting from Pandas DataFrames
+```
+import pandas as pd
+df = pd.read_csv('sales.csv')
+
+df['Total Sales'].plot(kind='line', title='Sales Over Time')
+plt.xlabel("Month")
+plt.ylabel("Revenue")
+plt.grid()
+plt.show()
+```
+pandas.DataFrame.plot() integrates directly with Matplotlib.
+
+Very useful for fast and simple visualizations from dataframes.
+
+### 🧠 Common Errors & Solutions
+
+| Error                        | Cause                                     | Fix                                  |
+| ---------------------------- | ----------------------------------------- | ------------------------------------ |
+| `plt.show()` doesn't display | Missing `%matplotlib inline` in notebooks | Add `%matplotlib inline` at top      |
+| Pie chart looks oval         | Axes not equal                            | Use `plt.axis('equal')`              |
+| Overlapping labels           | Tight layout not used                     | Add `plt.tight_layout()`             |
+| Legends missing              | No `plt.legend()` or labels               | Add `label` in plot & `plt.legend()` |
+| x and y length mismatch      | Unequal data lengths                      | Ensure `len(x) == len(y)`            |
+
+## 📝 Summary Notes
+
+Matplotlib is foundational for any data analyst or data scientist.
+
+Start with plt.plot() and gradually explore other charts.
+
+Always focus on clarity: use labels, legends, grids, and colors wisely.
+
+Combine Matplotlib with Pandas for faster EDA and visualization workflows.
+
+Use subplots to compare multiple data series in a single figure.
+
+### ✅ What I Learned
+
+Created different types of plots using matplotlib.pyplot
+
+Customized plots with legends, titles, and styles
+
+Learned to create subplots and visualizations from DataFrames
+
+Debugged common visualization issues
 
 
 
