@@ -47,7 +47,27 @@ This produces a simple 2D line graph.
 
 Grid helps improve readability.
 
+## 📊 4. Types of Charts
 
+**🔹 Line Chart**
+```
+plt.plot(months, sales, color='green', linestyle='--', marker='o')
+```
+Used to show trends over time.
+
+**🔹 Bar Chart**
+```
+plt.bar(categories, values, color='orange')
+```
+Suitable for comparing categorical values.
+
+**🔹 Scatter Plot**
+```
+plt.scatter(x, y, color='blue', marker='x')
+```
+Used to identify relationships or correlations between variables.
+
+**🔹 Pie Chart**
 
 
 
