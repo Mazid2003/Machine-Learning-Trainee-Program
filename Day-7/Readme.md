@@ -125,5 +125,26 @@ sns.set_palette('pastel')              # Other options: deep, muted, bright, dar
 
 - 💾 Saved with plt.savefig("filename.png")
 
+### 🐞 Common Errors that everyone Encountered & Fixes
+
+| Error                                                 | Cause                      | Fix                                 |
+| ----------------------------------------------------- | -------------------------- | ----------------------------------- |
+| `AttributeError: seaborn has no attribute 'distplot'` | `distplot()` is deprecated | Use `histplot()` or `displot()`     |
+| Plot not showing                                      | Missing `plt.show()`       | Always end with `plt.show()`        |
+| Label overlap                                         | Tight spacing              | Use `plt.tight_layout()`            |
+| Dataset not loading                                   | No internet connection     | Use `pd.read_csv()` with local file |
+
+### 🎯 Key Learning Outcomes
+
+**✅ I can now:**
+
+- Choose the right visualization for the right data.
+
+- Use Seaborn effectively for EDA and storytelling.
+
+- Customize plot styles, palettes, and themes.
+
+- Build a complete visual analysis pipeline from loading data to saving figures.
+
 
 
