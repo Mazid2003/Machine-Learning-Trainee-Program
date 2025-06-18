@@ -108,20 +108,20 @@ The supervised learning pipeline covered the following steps:
 
 ## ✅ Day 8 Learning Outcomes
 
-By the end of the session, I was able to:
+- By the end of the session, I was able to:
 
-Understand and explain what supervised learning is.
+- Understand and explain what supervised learning is.
 
-Distinguish between regression and classification tasks.
+- Distinguish between regression and classification tasks.
 
-Use Scikit-learn to train simple ML models.
+- Use Scikit-learn to train simple ML models.
 
-Prepare datasets for machine learning tasks.
+- Prepare datasets for machine learning tasks.
 
-Evaluate models using appropriate metrics.
+- Evaluate models using appropriate metrics.
 
-Visualize model outputs effectively.
+- Visualize model outputs effectively.
 
-Apply the full ML pipeline independently.
+- Apply the full ML pipeline independently.
 
 
