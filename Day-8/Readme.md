@@ -22,23 +22,23 @@ Supervised learning is a machine learning approach where the model is trained on
 
 The supervised learning pipeline covered the following steps:
 
-Import Libraries – pandas, numpy, sklearn, seaborn, matplotlib.
+- **Import Libraries –** pandas, numpy, sklearn, seaborn, matplotlib.
 
-Load Dataset – Titanic for classification; Diabetes for regression.
+- **Load Dataset –** Titanic for classification; Diabetes for regression.
 
-Data Cleaning – Dropping missing values, encoding categorical variables.
+- **Data Cleaning –** Dropping missing values, encoding categorical variables.
 
-Feature & Label Separation – Identifying input variables (X) and target (y).
+- **Feature & Label Separation –** Identifying input variables (X) and target (y).
 
-Train-Test Split – Ensuring unbiased model evaluation.
+- **Train-Test Split –** Ensuring unbiased model evaluation.
 
-Model Training – Using LinearRegression or LogisticRegression.
+- **Model Training –** Using LinearRegression or LogisticRegression.
 
-Prediction – Generating predictions on test data.
+- **Prediction –** Generating predictions on test data.
 
-Evaluation – Using metrics like Accuracy, MSE, Confusion Matrix.
+- **Evaluation –** Using metrics like Accuracy, MSE, Confusion Matrix.
 
-Visualization – Scatterplots for regression, heatmaps for classification.
+- **Visualization –** Scatterplots for regression, heatmaps for classification.
 
 ## 🧪 Hands-on Practice Highlights
 
