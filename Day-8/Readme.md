@@ -52,53 +52,62 @@ The supervised learning pipeline covered the following steps:
 
 - **Insight:** The model could explain around 45% of the variance. BMI and blood pressure were key contributors.
 
-🚢 Classification Example: Titanic Dataset
-Objective: Predict survival of passengers.
+**🚢 Classification Example: Titanic Dataset**
 
-Model Used: Logistic Regression.
+- **Objective:** Predict survival of passengers.
 
-Evaluation Metrics: Accuracy and Confusion Matrix.
+- **Model Used:** Logistic Regression.
 
-Insight: Female passengers and first-class travelers had a higher survival rate.
+- **Evaluation Metrics:** Accuracy and Confusion Matrix.
 
-📊 Visualizations Used
-Visualization	Purpose
-Scatter Plot	Actual vs Predicted for Regression
-Confusion Matrix	Evaluate classification performance
-Count Plot / Bar Plot	Show distribution of categorical data
-Heatmap	Feature correlation & confusion matrix
+- **Insight:** Female passengers and first-class travelers had a higher survival rate.
 
-🔍 Key Concepts Learned
-Concept	Description
-Feature	An independent variable (e.g., age, fare, BMI)
-Label	The target output variable (e.g., survived, disease score)
-Train-Test Split	Divides data to train and evaluate the model
-Accuracy	Percentage of correct predictions (used in classification)
-MSE	Average squared error (used in regression)
-Overfitting	When the model performs well on training but poorly on new data
-Confusion Matrix	A summary of true vs. predicted classes
+## 📊 Visualizations Used
 
-📁 Mini Project Summary
-Title: Titanic Survival Classification
+| Visualization         | Purpose                                |
+| --------------------- | -------------------------------------- |
+| Scatter Plot          | Actual vs Predicted for Regression     |
+| Confusion Matrix      | Evaluate classification performance    |
+| Count Plot / Bar Plot | Show distribution of categorical data  |
+| Heatmap               | Feature correlation & confusion matrix |
 
-Model Used: Logistic Regression
+## 🔍 Key Concepts Learned
 
-Highlights: Data cleaning, feature engineering (sex encoding), accuracy evaluation, and confusion matrix plotting.
+| Concept              | Description                                                     |
+| -------------------- | --------------------------------------------------------------- |
+| **Feature**          | An independent variable (e.g., age, fare, BMI)                  |
+| **Label**            | The target output variable (e.g., survived, disease score)      |
+| **Train-Test Split** | Divides data to train and evaluate the model                    |
+| **Accuracy**         | Percentage of correct predictions (used in classification)      |
+| **MSE**              | Average squared error (used in regression)                      |
+| **Overfitting**      | When the model performs well on training but poorly on new data |
+| **Confusion Matrix** | A summary of true vs. predicted classes                         |
 
-Outcome: Identified key survival influencers like gender and passenger class.
 
-📁 Assignment Summary
-Title: Diabetes Progression Prediction
+**📁 Mini Project Summary**
 
-Model Used: Linear Regression
+**Title:** Titanic Survival Classification
 
-Dataset: sklearn’s load_diabetes
+**Model Used:** Logistic Regression
 
-Evaluation: MSE ≈ 2900; R² ≈ 0.45
+**Highlights:** Data cleaning, feature engineering (sex encoding), accuracy evaluation, and confusion matrix plotting.
 
-Outcome: Demonstrated how patient data can predict disease progression over time.
+**Outcome:** Identified key survival influencers like gender and passenger class.
 
-✅ Day 8 Learning Outcomes
+**📁 Assignment Summary**
+
+**Title:** Diabetes Progression Prediction
+
+**Model Used:** Linear Regression
+
+**Dataset:** sklearn’s load_diabetes
+
+**Evaluation:** MSE ≈ 2900; R² ≈ 0.45
+
+**Outcome:** Demonstrated how patient data can predict disease progression over time.
+
+## ✅ Day 8 Learning Outcomes
+
 By the end of the session, I was able to:
 
 Understand and explain what supervised learning is.
