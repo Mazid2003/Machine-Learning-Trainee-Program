@@ -1,29 +1,25 @@
-Day 8 Log – Introduction to Supervised Learning
-🎯 Learning Objective
+# Day 8 Log – Introduction to Supervised Learning
+
+**🎯 Learning Objective**
+
 Day 8 was focused on understanding Supervised Machine Learning, where models learn from labeled data to make predictions. The primary goal was to differentiate between regression and classification, implement basic models using Scikit-learn, and gain hands-on experience with the end-to-end ML pipeline.
 
-📅 Daily Schedule Summary
-Time	Activity
-10:00 – 10:30 AM	Intro to Machine Learning
-10:30 – 11:15 AM	Supervised Learning Theory & Use Cases
-11:15 – 12:15 PM	Regression Hands-on: Linear Regression
-12:15 – 12:30 PM	Break
-12:30 – 01:30 PM	Classification Hands-on: Logistic Regression
-01:30 – 02:30 PM	Core Concepts: Features, Labels, Train-Test Split, etc.
-02:30 – 03:30 PM	Sklearn Workflow: Load ➝ Train ➝ Predict ➝ Evaluate
-03:30 – 04:30 PM	Visualizing Results (Scatterplots, Confusion Matrix)
-04:30 – 06:00 PM	Mini Project + Assignments + Q&A
+## 📘 Supervised Learning – Theory Recap
 
-📘 Supervised Learning – Theory Recap
-🧠 What is Supervised Learning?
+**🧠 What is Supervised Learning?**
+
 Supervised learning is a machine learning approach where the model is trained on input data (features) and known output labels (targets). The aim is to learn a mapping from inputs to outputs so the model can predict results on new data.
 
-✅ Types of Supervised Learning:
-Type	Goal	Example Use Cases
-Regression	Predict continuous values	Predicting house prices or blood sugar
-Classification	Predict categories	Predicting survival or email spam
+### ✅ Types of Supervised Learning:
 
-🔁 Machine Learning Workflow
+| Type           | Goal                      | Example Use Cases                      |
+| -------------- | ------------------------- | -------------------------------------- |
+| Regression     | Predict continuous values | Predicting house prices or blood sugar |
+| Classification | Predict categories        | Predicting survival or email spam      |
+
+
+### 🔁 Machine Learning Workflow
+
 The supervised learning pipeline covered the following steps:
 
 Import Libraries – pandas, numpy, sklearn, seaborn, matplotlib.
@@ -44,15 +40,17 @@ Evaluation – Using metrics like Accuracy, MSE, Confusion Matrix.
 
 Visualization – Scatterplots for regression, heatmaps for classification.
 
-🧪 Hands-on Practice Highlights
-🏠 Regression Example: Diabetes Dataset
-Objective: Predict diabetes progression based on clinical features.
+## 🧪 Hands-on Practice Highlights
 
-Model Used: Linear Regression.
+**🏠 Regression Example: Diabetes Dataset**
 
-Evaluation Metric: Mean Squared Error (MSE) and R² Score.
+- **Objective:** Predict diabetes progression based on clinical features.
 
-Insight: The model could explain around 45% of the variance. BMI and blood pressure were key contributors.
+- **Model Used:** Linear Regression.
+
+- **Evaluation Metric:** Mean Squared Error (MSE) and R² Score.
+
+- **Insight:** The model could explain around 45% of the variance. BMI and blood pressure were key contributors.
 
 🚢 Classification Example: Titanic Dataset
 Objective: Predict survival of passengers.
