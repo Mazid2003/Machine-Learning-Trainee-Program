@@ -19,6 +19,7 @@ Hours,Score
 5.1,47
 3.2,27
 ...
+
 **✅ Tasks Completed:**
 
 Loaded and cleaned the student_scores.csv dataset.
@@ -85,11 +86,12 @@ Saved the trained model using joblib as house_price_model.pkl
 
 ### 📊 Model Performance:
 
-Metric	Value (Example)
-MAE	₹ 850,000
-MSE	1.1 × 10¹²
-RMSE	₹ 1,050,000
-R²	0.89
+| Metric | Value (Example) |
+| ------ | --------------- |
+| MAE    | ₹ 850,000       |
+| MSE    | 1.1 × 10¹²      |
+| RMSE   | ₹ 1,050,000     |
+| R²     | 0.89            |
 
 **🧠 Key Insights:**
 
