@@ -1,5 +1,7 @@
 # 📅 Day 7 Log – Data Visualization with Seaborn
 
+**Date: 17/06/2025**
+
 **🧠 Learning Objective**
 
 The primary goal for Day 7 was to deepen my understanding of statistical data visualization using Seaborn, building upon the foundational skills learned with Matplotlib. I learned how to:
