@@ -101,12 +101,13 @@ Model explained 89% of the variance in house price.
 
 **📘 Key Concepts Covered:**
 
-Concept	Explanation
-Underfitting	Model is too simple and performs poorly
-Overfitting	Model memorizes training data, fails on new data
-Feature Importance	Regression coefficients indicate which features impact the target most
-Multicollinearity	High correlation between features can distort coefficients
-Residual Plot	Used to check homoscedasticity and model assumptions
+| Concept            | Explanation                                                            |
+| ------------------ | ---------------------------------------------------------------------- |
+| Underfitting       | Model is too simple and performs poorly                                |
+| Overfitting        | Model memorizes training data, fails on new data                       |
+| Feature Importance | Regression coefficients indicate which features impact the target most |
+| Multicollinearity  | High correlation between features can distort coefficients             |
+| Residual Plot      | Used to check homoscedasticity and model assumptions                   |
 
 ## 🛠 Tools & Libraries Used:
 
