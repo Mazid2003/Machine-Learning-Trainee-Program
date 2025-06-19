@@ -1,4 +1,6 @@
-# 📅 Day 9 – Linear Regression | Internship 
+# 📅 Day 9 – Linear Regression 
+
+**Date: 19/06/2025**
 
 **🧠 Learning Objective:**
 
