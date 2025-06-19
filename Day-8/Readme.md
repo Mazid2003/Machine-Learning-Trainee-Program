@@ -1,5 +1,7 @@
 # Day 8 Log – Introduction to Supervised Learning
 
+**Date:18/06/2025**
+
 **🎯 Learning Objective**
 
 Day 8 was focused on understanding Supervised Machine Learning, where models learn from labeled data to make predictions. The primary goal was to differentiate between regression and classification, implement basic models using Scikit-learn, and gain hands-on experience with the end-to-end ML pipeline.
