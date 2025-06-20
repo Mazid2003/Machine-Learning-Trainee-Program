@@ -41,6 +41,16 @@ In machine learning terms:
 
 **𝑦^=𝛽0+𝛽1𝑥**
 
+Where:
+
+y^: Predicted Value
+
+x: Input feature
+
+𝛽0: Intercept(bias)
+
+𝛽1: coefficient(slope/weight)
+
 ## 🧪 Hands-On Implementation:
 
 ### ✅ Mini Project 1: Student Score Prediction
