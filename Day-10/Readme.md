@@ -18,6 +18,29 @@ Simple Linear Regression: One feature (e.g., Study Hours → Score)
 
 Multiple Linear Regression: Multiple features (e.g., Area, Bedrooms, Age → House Price)
 
+## ✅ Real-World Applications of Linear Regression:
+
+| **Domain**  | **Use Case**                                                                  |
+| ----------- | ----------------------------------------------------------------------------- |
+| Real Estate | Predict housing prices based on size, location, and other features            |
+| Healthcare  | Estimate patient risk score based on age, weight, and vital measurements      |
+| Finance     | Predict stock prices and interest rates                                       |
+| HR          | Predict employee salary from experience, education, and job role              |
+| E-commerce  | Forecast sales based on historical performance and seasonal trends            |
+| Education   | Predict student exam scores based on attendance, study hours, and preparation |
+
+## ✳️ 2. Mathematical Formulation
+
+**📌 Simple Linear Regression (Single Feature)**
+
+The equation of a straight line:
+
+**𝑦=𝑚𝑥+𝑐**
+
+In machine learning terms:
+
+**𝑦^=𝛽0+𝛽1𝑥**
+
 ## 🧪 Hands-On Implementation:
 
 ### ✅ Mini Project 1: Student Score Prediction
