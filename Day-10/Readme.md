@@ -43,13 +43,30 @@ In machine learning terms:
 
 Where:
 
-y^: Predicted Value
+- y^: Predicted Value
 
-x: Input feature
+- x: Input feature
 
-𝛽0: Intercept(bias)
+- 𝛽0: Intercept(bias)
 
-𝛽1: coefficient(slope/weight)
+- 𝛽1: coefficient(slope/weight)
+
+🔍 The model learns the optimal values of 𝛽0 and 𝛽1 that minimize prediction error using a cost function like Mean Squared Error (MSE).
+
+**🧮 Multiple Linear Regression (Multiple Features)**
+
+If more than one input feature is involved:
+
+**y^ = β0 + β1x1 + β2x2 +…+ βnxn**
+
+This represents a hyperplane in n-dimensional space.Each 𝛽𝑖 represents the weight or impact of the corresponding feature 𝑥𝑖
+on the prediction.
+
+**📘 Interpretation**
+
+Each coefficient (𝛽𝑖) indicates how much the output changes with a one-unit change in that feature, assuming all others are constant.
+
+Linear regression is both predictive and interpretable, making it useful for business forecasting and decision-making.
 
 ## 🧪 Hands-On Implementation:
 
