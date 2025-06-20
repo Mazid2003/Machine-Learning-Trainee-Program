@@ -22,9 +22,9 @@ Multiple Linear Regression: Multiple features (e.g., Area, Bedrooms, Age → Hou
 
 ### ✅ Mini Project 1: Student Score Prediction
 
-Dataset: student_scores.csv with features: Hours, SleepHours, and target: Score
+Dataset: student_scores.csv with features: Hours and target: Score
 
-Steps Performed:
+**Steps Performed:**
 
 Data loading and cleaning
 
@@ -42,7 +42,7 @@ Interpreted impact of each feature
 
 Dataset: housing.csv with features: Area, Bedrooms, Age, etc.
 
-Steps:
+**Steps:**
 
 Selected 3+ features to train a multiple linear regression model
 
@@ -54,20 +54,23 @@ Saved the model with joblib for reuse
 
 Evaluated model with R² and residual analysis
 
-Delivered insights like:
+**Delivered insights like:**
 
 Each extra bedroom adds ~₹10,000 to house price
 
 Older houses decrease value linearly
 
-📊 Metrics Used:
-Metric	Description
-MAE	Mean of absolute prediction errors
-MSE	Mean of squared errors (penalizes large errors)
-RMSE	Root of MSE, easier to interpret
-R²	Explains how well the model fits the data
+## 📊 Metrics Used:
 
-📈 Visualizations Created:
+| Metric | Description                                     |
+| ------ | ----------------------------------------------- |
+| MAE    | Mean of absolute prediction errors              |
+| MSE    | Mean of squared errors (penalizes large errors) |
+| RMSE   | Root of MSE, easier to interpret                |
+| R²     | Explains how well the model fits the data       |
+
+## 📈 Visualizations Created:
+
 Scatter plots of input vs. target
 
 Regression line (actual vs predicted)
@@ -76,7 +79,8 @@ Residual plots (to assess bias and model fit)
 
 Correlation heatmaps (for EDA)
 
-📁 Deliverables:
+## 📁 Deliverables:
+
 ✅ student_score_prediction.ipynb
 
 ✅ housing_price_prediction.ipynb
@@ -85,7 +89,8 @@ Correlation heatmaps (for EDA)
 
 ✅ Trained model: housing_price_model.pkl
 
-✅ Key Takeaways:
+## ✅ Key Takeaways:
+
 Built and evaluated both simple and multiple linear regression models
 
 Understood when and how to use Linear Regression
