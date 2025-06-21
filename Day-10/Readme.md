@@ -1,6 +1,6 @@
 # 📅 Day 10:Linear Regression: The Complete Guide
 
-**Date: 19/06/2025**
+**Date: 20/06/2025**
 
 **🎯 Objective:**
 
