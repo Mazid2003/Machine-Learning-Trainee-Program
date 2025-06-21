@@ -63,5 +63,5 @@ Welcome to my journey through a 1-month intensive **Machine Learning Trainee** a
 
 ---
 
-> 📍 This project is part of the Machine Learning Trainee Program by **InnovateCloud Solutions** (2025).
+
 
