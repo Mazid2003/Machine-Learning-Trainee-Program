@@ -1,5 +1,7 @@
 # 📅 Day 10:Linear Regression: The Complete Guide
 
+Date: 19/06/2025
+
 **🎯 Objective:**
 
 To gain a deep understanding of Linear Regression, one of the most foundational techniques in machine learning, and apply it in both simple and multiple variable scenarios with real-world datasets.
