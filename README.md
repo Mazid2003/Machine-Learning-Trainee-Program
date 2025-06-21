@@ -3,7 +3,7 @@
 
 Date: 09/06/2025
 
-Welcome to my journey through a 1-month intensive **Machine Learning Trainee Program** at **InnovateCloud Solutions**. This program included a mix of theory, hands-on projects, and a final ML project: **Loan Default Prediction System**.
+Welcome to my journey through a 1-month intensive **Machine Learning Trainee** at **InnovateCloud Solutions**. This program included a mix of theory, hands-on projects, and a final ML project: **Loan Default Prediction System**.
 
 ---
 
