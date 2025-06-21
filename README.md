@@ -58,8 +58,8 @@ Welcome to my journey through a 1-month intensive **Machine Learning Trainee** a
 
 ## 📬 Contact
 **Mohammad Mazid**  
-📧 Email: mazidmd750@gmail.com 
-🔗 LinkedIn: https://www.linkedin.com/in/mohammadmazid
+- 📧 Email: mazidmd750@gmail.com 
+- 🔗 LinkedIn: https://www.linkedin.com/in/mohammadmazid
 
 ---
 
