@@ -45,6 +45,12 @@ Visualized the results using a scatter plot.
 
 Evaluated clustering using Silhouette Score.
 
+- Silhouette Score: Measures how similar a point is to its own cluster vs other clusters.
+
+- Calinski-Harabasz Index: Ratio of between-cluster dispersion to within-cluster dispersion.
+
+- Davies-Bouldin Index: Lower values indicate better clustering.
+
 ## 🔹 Real-World Use Cases:
 
 Customer Segmentation
