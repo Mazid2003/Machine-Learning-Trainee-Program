@@ -33,6 +33,38 @@ Perform customer segmentation, anomaly detection, and market basket analysis.
 
 **Dimensionality Reduction** (e.g., PCA, t-SNE, Autoencoders)
 
+## Common Unsupervised Learning Algorithms
+
+### 🔹 K-Means Clustering
+
+Assigns data points to K clusters by minimizing the sum of squared distances to cluster centers.
+
+Steps:
+
+Initialize K centroids randomly.
+
+Assign each data point to nearest centroid.
+
+Recalculate centroids as mean of assigned points.
+
+Repeat until convergence.
+
+### 🔹 Hierarchical Clustering
+
+Builds clusters incrementally by merging or splitting.
+
+Results in a dendrogram — a tree-like diagram showing cluster relationships.
+
+Useful for smaller datasets or when the number of clusters is unknown.
+
+### 🔹 Principal Component Analysis (PCA)
+
+Transforms features into a smaller set of uncorrelated components (principal components).
+
+Each component captures the maximum variance possible.
+
+Used for visualization, noise reduction, and speeding up other algorithms.
+
 ## 🔹 Hands-on: K-Means Clustering in Python
 
 Used synthetic data of customers with Annual Income and Spending Score.
