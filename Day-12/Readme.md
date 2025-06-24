@@ -84,6 +84,40 @@ Feature scaling (StandardScaler) improves results.
 
 Outliers and poor initialization affect clustering.
 
+## Advantages of K-Means
+
+Simple to understand and implement.
+
+Scales well to large datasets.
+
+Fast and efficient for spherical clusters.
+
+Easy to interpret cluster centers.
+
+## Limitations of K-Means
+
+| Limitation                 | Explanation                                                   |
+|---------------------------|----------------------------------------------------------------|
+| Requires predefining **K**| Need to know or guess the number of clusters beforehand        |
+| Sensitive to initialization | Bad initial centroids can lead to poor clustering results    |
+| Assumes spherical clusters | Clusters must be convex and isotropic (round-shaped)          |
+| Sensitive to outliers      | Outliers can heavily skew the cluster centroids               |
+| Only works with numeric data | Uses distance metrics that require numeric input features   |
+
+## Tips & Best Practices
+
+Use K-Means++ initialization (default in sklearn) to improve results.
+
+Scale your features using StandardScaler or MinMaxScaler.
+
+Run K-Means multiple times with different seeds to get stable results.
+
+Use Elbow Method or Silhouette Score to find KK.
+
+Visualize clusters to validate results.
+
+For non-spherical clusters, consider other algorithms like DBSCAN or hierarchical clustering.
+
 ## 🚀 Applications
 
 Customer Segmentation
