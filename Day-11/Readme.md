@@ -1,5 +1,7 @@
 # 📅 Day 11 – Introduction to Unsupervised Learning
 
+**Date: 23/06/2025**
+
 **🎯 Learning Objective:**
 
 Today, I learned the fundamentals of unsupervised learning, how it's different from supervised learning, and explored popular algorithms like K-Means Clustering and Principal Component Analysis (PCA).
