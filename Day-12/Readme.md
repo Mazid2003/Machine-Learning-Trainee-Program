@@ -1,6 +1,8 @@
 # 🎯Day-12: K-Means Clustering - A Deep Dive
 
-This project is part of my Day 12 Internship Task and demonstrates the **K-Means Clustering** algorithm applied to **Customer Segmentation** using the `Mall_Customers.csv` dataset.
+**Date:24/06/2025**
+
+In the Day-12 of my internship session, I've gone through about the K-Means a method in clustering and how K-Means works, advantages, real-time-applications, common issues etc.And also done a project Day 12 Internship Task and demonstrates the **K-Means Clustering** algorithm applied to **Customer Segmentation** using the `Mall_Customers.csv` dataset.
 
 ---
 
