@@ -1,4 +1,4 @@
-# 🎯 K-Means Clustering - Customer Segmentation
+# 🎯Day-12: K-Means Clustering - A Deep Dive
 
 This project is part of my Day 12 Internship Task and demonstrates the **K-Means Clustering** algorithm applied to **Customer Segmentation** using the `Mall_Customers.csv` dataset.
 
