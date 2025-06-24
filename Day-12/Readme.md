@@ -118,6 +118,33 @@ Visualize clusters to validate results.
 
 For non-spherical clusters, consider other algorithms like DBSCAN or hierarchical clustering.
 
+## Advanced Concepts
+
+**A. K-Means++**
+Smart initialization technique to choose initial centroids far apart.
+
+Reduces chances of poor clustering due to bad centroid initialization.
+
+**B. Mini-Batch K-Means**
+
+Uses small random batches of data to update centroids.
+
+Faster on very large datasets with a slight tradeoff in accuracy.
+
+**C. Convergence Criteria**
+
+Algorithm stops when centroids stop moving significantly or max iterations reached.
+
+## 🛠️ Common Pitfalls & Troubleshooting
+
+| Problem                    | Cause                        | Solution                                             |
+|----------------------------|------------------------------|------------------------------------------------------|
+| Clusters not well-separated | K is too large or small      | Use Elbow method or Silhouette Score to choose optimal K |
+| Slow convergence            | Bad initialization           | Use K-Means++ or run the algorithm multiple times    |
+| Outliers skew clusters      | Extreme points               | Remove outliers or use robust clustering techniques  |
+| Non-spherical clusters      | Clusters not convex          | Try DBSCAN or Hierarchical Clustering                |
+
+
 ## 🚀 Applications
 
 Customer Segmentation
