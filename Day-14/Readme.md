@@ -63,6 +63,22 @@ Imagine you have a dataset with two highly correlated features (e.g., height and
 
 - Projecting data onto these components reduces redundancy.
 
+## How to Choose Number of Components?
+
+- Explained Variance Ratio: Calculate variance each component explains.
+
+- Scree Plot: Plot eigenvalues to identify “elbow” point where variance gain diminishes.
+
+- Cumulative Explained Variance: Select enough components to cover desired threshold (e.g., 90%).
+
+## Visualizing PCA Results
+
+- 2D/3D Scatterplots: Plot first two or three principal components to see clusters or patterns.
+
+- Biplots: Show samples and variable loadings simultaneously.
+
+- Explained Variance Plot: Visualize how much variance each component explains.
+
 ## ⚖️ Applications
 
 | Domain           | Use Case                               |
