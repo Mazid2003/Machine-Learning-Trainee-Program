@@ -25,15 +25,21 @@ PCA transforms high-dimensional, correlated data into a smaller set of uncorrela
 | Eigenvalues/Vectors  | Identify directions (components) of maximum variance                |
 | Principal Components | Top-k directions explaining most variance                           |
 
-## 📊 PCA Steps in Python
+## 📊 Step-by-Step PCA Algorithm
 
-- Standardize features using StandardScaler.
+- Standardize the data to zero mean and unit variance.
 
-- Apply PCA() and extract components.
+- Compute covariance matrix of standardized data.
 
-- Visualize using 2D/3D plots and explained variance ratio.
+- Calculate eigenvalues and eigenvectors of covariance matrix.
 
-- Reconstruct original data and compute reconstruction error.
+- Sort eigenvectors by descending eigenvalues.
+
+- Select top kk eigenvectors based on explained variance.
+
+- Project data onto new subspace defined by selected eigenvectors.
+
+- Use ZZ for further analysis or modeling.
 
 ## ✅ Why PCA?
 
