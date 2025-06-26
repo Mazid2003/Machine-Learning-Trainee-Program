@@ -55,6 +55,16 @@ PCA transforms high-dimensional, correlated data into a smaller set of uncorrela
 | NLP              | Dimensionality reduction in embeddings |
 | Marketing        | Customer segmentation & profiling      |
 
+## Advantages of PCA
+
+- Efficient dimensionality reduction.
+
+- Removes multicollinearity by creating uncorrelated features.
+
+- Helps visualize high-dimensional data.
+
+- Can improve speed and accuracy of downstream models.
+
 ## ⚠️ Limitations
 
 - Assumes linearity and Gaussian data distribution.
