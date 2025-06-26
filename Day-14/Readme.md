@@ -45,6 +45,18 @@ PCA transforms high-dimensional, correlated data into a smaller set of uncorrela
 
 - Helps in feature extraction and avoiding overfitting.
 
+## PCA Intuition
+
+Imagine you have a dataset with two highly correlated features (e.g., height and weight). Plotting them shows data points clustered roughly along a line:
+
+- PCA finds the direction (line) where data varies the most (maximum variance).
+
+- The first principal component is that line.
+
+- The second component is orthogonal (at right angles) to the first and explains remaining variance.
+
+- Projecting data onto these components reduces redundancy.
+
 ## ⚖️ Applications
 
 | Domain           | Use Case                               |
