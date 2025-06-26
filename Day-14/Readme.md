@@ -1,4 +1,6 @@
-# 📅 Day 14 – Principal Component Analysis (PCA): Summary
+# 📅 Day 14 – Principal Component Analysis (PCA)
+
+**Date: 26/06/2025**
 
 **🎯 Objectives**
 
