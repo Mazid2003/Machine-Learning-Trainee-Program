@@ -116,7 +116,7 @@ Customer segmentation is the process of dividing customers into distinct groups 
 | 2       | Older, mid income, mid spender        | Retention strategies   |
 | 3       | Mixed age, low income, low spender    | Reactivation campaigns |
 
-## 1️⃣2️⃣ Business Recommendations
+## 1️⃣1️⃣ Business Recommendations
 
 - Design cluster-specific marketing campaigns.
 
@@ -126,7 +126,7 @@ Customer segmentation is the process of dividing customers into distinct groups 
 
 - Monitor segment engagement over time.
 
-## 1️⃣3️⃣ Suggested KPIs
+## 1️⃣2️⃣ Suggested KPIs
 
 | KPI                              | Purpose                         |
 | -------------------------------- | ------------------------------- |
@@ -136,7 +136,7 @@ Customer segmentation is the process of dividing customers into distinct groups 
 | 💸 Campaign Conversion Rate      | Measure marketing effectiveness |
 | 📈 Segment-wise Revenue          | Evaluate growth                 |
 
-## 1️⃣4️⃣ Challenges
+## 1️⃣3️⃣ Challenges
 
 - Data quality impacts cluster accuracy.
 
@@ -146,7 +146,7 @@ Customer segmentation is the process of dividing customers into distinct groups 
 
 - Customer behavior evolves → regular updates needed.
 
-## 1️⃣5️⃣ Extensions
+## 1️⃣4️⃣ Extensions
 
 - Add RFM features or online behavior data.
 
@@ -154,7 +154,7 @@ Customer segmentation is the process of dividing customers into distinct groups 
 
 - Deploy real-time segmentation in production.
 
-## 1️⃣6️⃣ Summary
+## 1️⃣5️⃣ Summary
 
 | Step                    | Description                     |
 | ----------------------- | ------------------------------- |
