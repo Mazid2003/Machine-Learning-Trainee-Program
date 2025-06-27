@@ -118,13 +118,13 @@ Customer segmentation is the process of dividing customers into distinct groups 
 
 ## 1️⃣2️⃣ Business Recommendations
 
-Design cluster-specific marketing campaigns.
+- Design cluster-specific marketing campaigns.
 
-Tailor loyalty, upsell, cross-sell strategies.
+- Tailor loyalty, upsell, cross-sell strategies.
 
-Allocate marketing budgets efficiently.
+- Allocate marketing budgets efficiently.
 
-Monitor segment engagement over time.
+- Monitor segment engagement over time.
 
 ## 1️⃣3️⃣ Suggested KPIs
 
@@ -168,3 +168,4 @@ Monitor segment engagement over time.
 | 💡 **Recommendations**  | Actionable marketing strategies |
 | 📈 **Monitor & Update** | Continuous improvement          |
 
+> 💡 This project demonstrated my ability to apply machine learning for real business impact, including model development, interpretation, and strategy design.
