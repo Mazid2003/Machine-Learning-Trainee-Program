@@ -187,3 +187,14 @@ test_loss, test_acc = model.evaluate(x_test_flat, y_test)
 print(f'Test Accuracy: {test_acc:.4f}')
 ```
 ## ✅ Summary
+
+| Aspect        | Details                                   |
+| ------------- | ----------------------------------------- |
+| Definition    | Neural networks with multiple layers      |
+| Key parts     | Neurons, layers, activations, weights     |
+| Training      | Forward + backprop + optimize             |
+| Architectures | FNN, CNN, RNN, Transformers               |
+| Frameworks    | TensorFlow, PyTorch, Keras                |
+| Challenges    | Data need, compute cost, interpretability |
+| Applications  | Vision, NLP, healthcare, autonomous       |
+
