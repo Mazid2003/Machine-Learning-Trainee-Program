@@ -28,10 +28,20 @@ Scales well with big data and high-performance hardware (e.g., GPUs).
 - 2006: Breakthroughs in unsupervised pretraining → coined “Deep Learning”.
 - 2012: AlexNet wins ImageNet — revival of DL via GPUs, large datasets.
 
-4️⃣ Core Components of a Neural Network
+## 4️⃣ Core Components of a Neural Network
 
 A. Artificial Neuron (Perceptron)
 Formula:
 
-output
+**output=σ(∑wixi+b)**
+
+Where:
+
+- 𝑥𝑖= inputs
+
+- 𝑤𝑖= weights
+
+- 𝑏= bias
+
+- 𝜎= activation function
 
