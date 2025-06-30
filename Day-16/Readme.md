@@ -130,3 +130,60 @@ State-of-the-art in NLP, also vision
 | Autonomous  | Self-driving vehicles                   |
 | Recommender | Personalized suggestions                |
 
+## 9️⃣ Challenges
+
+Data hungry
+
+Computationally expensive
+
+Hard to interpret (“black-box”)
+
+Sensitive to adversarial examples
+
+## 🔟 Popular Frameworks
+
+TensorFlow (Google)
+
+PyTorch (Meta / Facebook)
+
+Keras (high-level wrapper for TensorFlow)
+
+Others: MXNet, Theano, Caffe
+
+## 1️⃣1️⃣ Future Trends
+
+Explainable AI (XAI)
+
+Efficient DL: pruning, quantization
+
+Self-supervised learning
+
+Multimodal models (vision + text)
+
+## 📌 Code Example: A Simple DL Model
+
+```
+import tensorflow as tf
+from tensorflow.keras import layers, models
+
+# Model: simple feedforward NN
+model = models.Sequential([
+    layers.Input(shape=(784,)),
+    layers.Dense(128, activation='relu'),
+    layers.Dense(64, activation='relu'),
+    layers.Dense(10, activation='softmax')
+])
+
+model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+
+# Train
+history = model.fit(x_train_flat, y_train, epochs=10, validation_split=0.1)
+
+# Save
+model.save('mnist_ffnn_model.h5')
+
+# Evaluate
+test_loss, test_acc = model.evaluate(x_test_flat, y_test)
+print(f'Test Accuracy: {test_acc:.4f}')
+```
+## ✅ Summary
