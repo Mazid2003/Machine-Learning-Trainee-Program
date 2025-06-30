@@ -30,7 +30,8 @@ Scales well with big data and high-performance hardware (e.g., GPUs).
 
 ## 4️⃣ Core Components of a Neural Network
 
-A. Artificial Neuron (Perceptron)
+### A. Artificial Neuron (Perceptron)
+
 Formula:
 
 **output=σ(∑wixi+b)**
@@ -44,4 +45,88 @@ Where:
 - 𝑏= bias
 
 - 𝜎= activation function
+
+### B. Layers
+
+**Input layer:** Raw data entry.
+
+**Hidden layers:** Learn intermediate representations.
+
+**Output layer:** Final prediction (classification, regression, etc).
+
+### C. Activation Functions
+
+| Function       | Formula                  | Output Range | Properties                          |
+| -------------- | ------------------------ | ------------ | ----------------------------------- |
+| **Sigmoid**    | $\frac{1}{1 + e^{-x}}$   | 0 to 1       | Good for probabilities              |
+| **Tanh**       | $\tanh(x)$               | -1 to 1      | Zero-centered                       |
+| **ReLU**       | $\max(0, x)$             | 0 to ∞       | Sparse activation, fast convergence |
+| **Leaky ReLU** | small slope when $x < 0$ |              | Fixes dying ReLU issue              |
+
+## 5️⃣ Training a Deep Neural Network
+
+### ✅ Forward Pass
+Data flows layer-by-layer, transformations applied.
+
+### ✅ Loss Function
+Measures error:
+
+Cross-Entropy: For classification.
+
+MSE: For regression.
+
+### ✅ Backpropagation
+Compute gradients using chain rule.
+
+Update weights in the direction that reduces loss.
+
+### ✅ Optimization
+
+| Optimizer            | Description                                         |
+| -------------------- | --------------------------------------------------- |
+| **Gradient Descent** | Update along gradient of loss                       |
+| **SGD**              | Gradient descent with mini-batches                  |
+| **Adam**             | Adaptive learning rate, combines momentum + RMSProp |
+
+## 6️⃣ Key Hyperparameters
+
+Learning rate
+
+Number of layers + neurons
+
+Batch size
+
+Epochs
+
+Dropout / L2 regularization
+
+## 7️⃣ Common DL Architectures
+### 🔹 Feedforward Neural Networks (FNN)
+Basic structure, data flows in one direction.
+
+### 🔹 Convolutional Neural Networks (CNN)
+Ideal for images
+
+Convolution → Pooling → Fully Connected
+
+### 🔹 Recurrent Neural Networks (RNN)
+Sequence modeling (e.g., text, speech)
+
+Maintain memory of past inputs
+
+### 🔹 Transformers
+Use attention mechanisms
+
+State-of-the-art in NLP, also vision
+
+## 8️⃣ Applications of Deep Learning
+
+| Domain      | Example                                 |
+| ----------- | --------------------------------------- |
+| Vision      | Image classification, face recognition  |
+| NLP         | Sentiment analysis, machine translation |
+| Speech      | Voice assistants                        |
+| Healthcare  | Medical imaging                         |
+| Autonomous  | Self-driving vehicles                   |
+| Recommender | Personalized suggestions                |
 
