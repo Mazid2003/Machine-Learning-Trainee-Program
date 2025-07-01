@@ -155,7 +155,7 @@ model = load_model('mnist_model.h5')
 ```
 ✅ Allows reuse without retraining.
 
-## 5️⃣ Advanced Tips
+## Advanced Tips
 
 **EarlyStopping:** Stop training when validation loss stops improving.
 
@@ -165,5 +165,25 @@ model = load_model('mnist_model.h5')
 
 **Data Augmentation:** For image data, generate more samples via transformations.
 
+## Common Pitfalls:
+
+| Issue          | Solution                                      |
+| -------------- | --------------------------------------------- |
+| Overfitting    | Use Dropout, get more data, use EarlyStopping |
+| Underfitting   | Increase model size, train longer             |
+| Shape mismatch | Check input/output shapes carefully           |
+| Poor accuracy  | Normalize data, tune hyperparameters          |
+
+## ✅ Summary
+
+| Step             | What you did                                 |
+| ---------------- | -------------------------------------------- |
+| Import Libraries | TensorFlow + Keras essentials                |
+| Load Data        | MNIST dataset, normalization, one-hot labels |
+| Define Model     | Flatten + Dense + Dropout layers             |
+| Compile          | Set optimizer, loss, metrics                 |
+| Train            | Fit with validation                          |
+| Evaluate         | Test set accuracy                            |
+| Save/Load        | Reuse the trained model                      |
 
 
