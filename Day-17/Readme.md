@@ -3,10 +3,13 @@
 
 **🎯 Learning Objectives**
 
-✅ Understand what Keras is and why it’s widely used for deep learning.
-✅ Learn core concepts of layers, models, loss functions, and optimizers in Keras.
-✅ Build, train, and evaluate a neural network for digit classification.
-✅ Explore saving/loading models, tuning hyperparameters, and debugging strategies.
+- ✅ Understand what Keras is and why it’s widely used for deep learning.
+  
+- ✅ Learn core concepts of layers, models, loss functions, and optimizers in Keras.
+
+- ✅ Build, train, and evaluate a neural network for digit classification.
+
+- ✅ Explore saving/loading models, tuning hyperparameters, and debugging strategies.
 
 ## 1️⃣ What is Keras?
 Keras is a high-level API for building and training deep learning models.
@@ -157,13 +160,13 @@ model = load_model('mnist_model.h5')
 
 ## Advanced Tips
 
-**EarlyStopping:** Stop training when validation loss stops improving.
+- **EarlyStopping:** Stop training when validation loss stops improving.
 
-**BatchNormalization:** Normalize layer inputs → faster convergence.
+- **BatchNormalization:** Normalize layer inputs → faster convergence.
 
-**LearningRateScheduler:** Dynamically adjust learning rate during training.
+- **LearningRateScheduler:** Dynamically adjust learning rate during training.
 
-**Data Augmentation:** For image data, generate more samples via transformations.
+- **Data Augmentation:** For image data, generate more samples via transformations.
 
 ## Common Pitfalls:
 
