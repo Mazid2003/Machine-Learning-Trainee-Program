@@ -63,5 +63,11 @@ Set how the model learns:
 ## 3️⃣ Building an MNIST Digit Classifier: Step-by-Step
 
 **📌 Step 1:** Import Required Libraries
-
+```
+import tensorflow as tf
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Flatten, Dropout
+from tensorflow.keras.datasets import mnist
+from tensorflow.keras.utils import to_categorical
+```
 
