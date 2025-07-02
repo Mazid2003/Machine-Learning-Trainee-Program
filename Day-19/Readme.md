@@ -1,5 +1,7 @@
 # ✨ Sentiment Analysis on Text Data
 
+**Date: 02/07/2025**
+
 **📌 Project Overview**
 
 This project implements a Sentiment Analysis system that predicts the sentiment (positive, negative, neutral) of input text using a deep learning model. The system leverages a pre-trained LSTM model along with a saved tokenizer to process text and classify sentiment efficiently.
