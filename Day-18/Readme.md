@@ -65,8 +65,8 @@ where:
 
 **Too small**→ slow convergence
 
-**✅ Learning rate schedules or adaptive methods help!
-**
+**✅ Learning rate schedules or adaptive methods help!**
+
 ## 5️⃣ Challenges in Optimization
 
 | Challenge                     | Description                       | Example Fix                 |
