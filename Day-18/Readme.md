@@ -1,6 +1,6 @@
 # 📅 Day 18 – Optimization Techniques in Deep Learning
 
-**Date:02/07/2025**
+**Date:01/07/2025**
 
 **🎯 Learning Objectives**
 
