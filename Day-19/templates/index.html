@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sentiment Classifier</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+      animation: gradientBG 10s ease infinite;
+      transition: background 0.5s, color 0.5s;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .dark-mode {
+      filter: brightness(0.7) contrast(1.2);
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 15px;
+      padding: 30px 40px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      width: 90%;
+      max-width: 500px;
+    }
+
+    .dark-mode .container {
+      background: rgba(30, 30, 30, 0.9);
+      color: #eee;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .dark-mode h1 {
+      color: #eee;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 12px;
+      font-size: 1rem;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      resize: vertical;
+      margin-bottom: 15px;
+    }
+
+    .dark-mode textarea {
+      background: #333;
+      color: #eee;
+      border-color: #555;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      padding: 12px;
+      font-size: 1rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      color: #fff;
+      background: linear-gradient(135deg, #23a6d5, #23d5ab);
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    input[type="submit"]:hover {
+      transform: scale(1.05);
+    }
+
+    .prediction {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 1.3rem;
+      font-weight: bold;
+      animation: fadeIn 1s ease forwards;
+      opacity: 0;
+    }
+
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+
+    .mode-toggle {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      background: rgba(0,0,0,0.5);
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 0.85rem;
+    }
+
+    .mode-toggle:hover {
+      background: rgba(0,0,0,0.7);
+    }
+  </style>
+</head>
+<body>
+  <div class="mode-toggle" onclick="toggleMode()">🌙 Toggle Mode</div>
+  <div class="container">
+    <h1>💬 Sentiment Classifier</h1>
+    <form method="post">
+      <textarea name="text" rows="5" placeholder="Type your review or tweet here...">{{ text }}</textarea>
+      <input type="submit" value="🔥 Classify">
+    </form>
+    {% if prediction %}
+      <div class="prediction">
+        {% if prediction == 'Positive' %}
+          <i class="fas fa-smile-beam" style="color:limegreen;"></i> {{ prediction }}
+        {% elif prediction == 'Negative' %}
+          <i class="fas fa-frown" style="color:crimson;"></i> {{ prediction }}
+        {% else %}
+          <i class="fas fa-meh" style="color:gray;"></i> {{ prediction }}
+        {% endif %}
+      </div>
+    {% endif %}
+  </div>
+
+  <script>
+    function toggleMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
+</body>
+</html>
