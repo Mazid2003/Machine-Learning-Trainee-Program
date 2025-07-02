@@ -1,5 +1,7 @@
 # Day-15: 💼 Customer Segmentation Mini Project 
 
+**Date: 27/06/2025**
+
 **🎯 Learning Objectives**
 
 In this mini-project, I aimed to:
