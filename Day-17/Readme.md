@@ -1,6 +1,8 @@
 
 # 🚀 Day 17 – Build a Neural Network with Keras: Detailed Deep Dive
 
+**Date: 29/06/2025**
+
 **🎯 Learning Objectives**
 
 - ✅ Understand what Keras is and why it’s widely used for deep learning.
