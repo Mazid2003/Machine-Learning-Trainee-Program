@@ -62,6 +62,9 @@ Welcome to my journey through a 1-month intensive **Machine Learning Trainee** a
 - 🔗 LinkedIn: https://www.linkedin.com/in/mohammadmazid
 
 ---
+**Welcome Letter:**
+
+[Welcome  Letter.pdf](https://github.com/user-attachments/files/21030412/Welcome.Letter.pdf)
 
 
 
