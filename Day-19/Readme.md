@@ -39,7 +39,7 @@ Ensure modularity and extensibility for future enhancements.
 📂 SentimentAnalysis
  ├── tokenizer1.pkl             # Saved tokenizer for preprocessing input text
  ├── templates
-       └── index.html
+       └── index.html           # Frontend
  ├── sentiment_lstm1.h5         # Trained LSTM model file
  ├── app.py                     # Flask app to serve sentiment predictions
  ├── test_cases.py              # Example test inputs for validation
