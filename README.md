@@ -1,9 +1,9 @@
 
-# 💡 Machine Learning Trainee – InnovateCloud Solutions
+# 💡 Machine Learning Trainee Program
 
 Date: 09/06/2025
 
-Welcome to my journey through a 1-month intensive **Machine Learning Trainee** at **InnovateCloud Solutions**. This program included a mix of theory, hands-on projects, and a final ML project: **Loan Default Prediction System**.
+Welcome to my journey through a 1-month intensive **Machine Learning Trainee Program.** This program included a mix of theory, hands-on projects, and a final ML project: **Loan Default Prediction System**.
 
 ---
 
@@ -62,9 +62,4 @@ Welcome to my journey through a 1-month intensive **Machine Learning Trainee** a
 - 🔗 LinkedIn: https://www.linkedin.com/in/mohammadmazid
 
 ---
-**Welcome Letter:**
-
-[Welcome  Letter.pdf](https://github.com/user-attachments/files/21030412/Welcome.Letter.pdf)
-
-
 
